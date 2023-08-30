@@ -75,7 +75,7 @@ public class Service {
 	
 	public void getContact() throws IOException {
 		 
-			FileReader fr = new FileReader("./PhoneDB.txt");
+			FileReader fr = new FileReader("./PhoneDB.txt");d
 			int a;
 			String phone ="";
 			
