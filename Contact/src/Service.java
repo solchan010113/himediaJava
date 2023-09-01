@@ -34,7 +34,7 @@ public class Service {
 		} while(num != 5);
 	}
 	
-	public void showContact(List list) {
+	public void showContact(List<Phone> list) {
 		System.out.println("<1.리스트>");
 		for(int i = 0; i < list.size(); i++) {
 			System.out.println(i+1+".\t"+list.get(i));
@@ -67,7 +67,7 @@ public class Service {
 		System.out.println("<4.검색>");
 		System.out.print(">이름 : ");
 		String name = sc.next();
-		List searchList = list.stream()
+		List<Phone> searchList = list.stream()
 								.filter(p -> p.name.contains(name))
 								.collect(Collectors.toList());
 		showContact(searchList);
@@ -75,7 +75,7 @@ public class Service {
 	
 	public void getContact() throws IOException {
 		 
-			FileReader fr = new FileReader("./PhoneDB.txt");d
+			FileReader fr = new FileReader("./PhoneDB.txt");
 			int a;
 			String phone ="";
 			

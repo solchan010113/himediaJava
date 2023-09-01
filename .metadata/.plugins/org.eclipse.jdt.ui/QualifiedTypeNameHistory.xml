@@ -12,4 +12,5 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="com.jdbcex.ex01.Author"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="com.javaex.phonebook.PersonDAO"/>
 </qualifiedTypeNameHistroy>
